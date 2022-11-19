@@ -1,0 +1,110 @@
+.container{
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left:0px;
+    right:0px;
+    padding: 0;
+    background: #ffffff;
+    font-family: 'Rubik', sans-serif;
+  } 
+.container .content{
+    position: relative;
+    padding-top: 179px;
+    padding-bottom: 397px;
+    
+}
+.container .welcome {
+  background-image: url("https://cdn.cfr.org/sites/default/files/styles/open_graph_article/public/image/2021/02/rtx7xavl.jpg");
+  /* filter: blur(2px);
+  -webkit-filter: blur(2px); */
+  height: 89.35%;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgba(249, 249, 249, 0.9);
+  background-color: rgba(245, 244, 244, 0.723);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Orbitron';
+  border: 2px solid #373535ae;
+  border-radius: 3ch; 
+  position: absolute;
+  top: 400px;
+  left: 250px;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 340px;
+  padding: 5px;
+  text-align: center;
+}
+
+h1,h2{
+  display: inline;
+}
+
+.options{
+  position: absolute;
+  top : 8px;
+  right: 20px;
+  padding: 5px 20px 0;
+  align-items: right;
+  z-index: 2;
+  font-size: large;
+  font-family: 'Centaur','Sans-serif';
+  word-spacing: 0px;
+  font-weight: bold;
+  
+}
+.options a:hover{
+  text-decoration: underline black;
+}
+.options a{
+
+  text-decoration: none;
+  color: black;
+  display: inline;
+  
+}
+.options ul{
+  list-style: none;
+  word-spacing: 20px;
+  margin:0;
+  padding:0;
+}
+.options li{
+  display: inline;
+  word-spacing: 3px;
+}
+.header{
+    padding-top: 15px;
+    padding: 20px 20px 0;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+    height: 80px;
+    display: flex;
+    padding: 0 var(--gap);
+    margin: 0 0 var(--gap) 0;
+    --fleck-seed: 35458;
+    --fleck-count: 500;
+    --fleck-size-base: 1px;
+    --fleck-color-1: #000000;
+    background-color: rgba(249, 249, 249, 0.9);
+    background-color: rgba(245, 244, 244, 0.723);
+    font-family: 'Centaur','Sans-serif';
+    align-content: center;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+.header .title{
+    position: absolute;
+    top: 2px;
+    left:85px;   
+}
+.header .logo{
+    padding: 5px;
+}
